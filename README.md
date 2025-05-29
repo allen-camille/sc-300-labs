@@ -1,32 +1,25 @@
-# SC-300 Labs – Microsoft Identity and Access Administrator
+# SC-300 – Vecka 1: Identity Concepts & Governance
 
-This repository contains a series of hands-on labs to prepare for the **SC-300: Microsoft Identity and Access Administrator** certification.
+Detta är dokumentationen för vecka 1 av min labbserie inom ramen för SC-300 (Microsoft Identity and Access Administrator).
 
-The labs are focused on Microsoft Entra ID (formerly Azure AD), and include practical exercises around:
+## ✅ Innehåll
 
-- Identity and access management (IAM)
-- Role-based access control (RBAC)
-- Administrative units (AU)
-- Role assignment and delegation
-- Principle of Least Privilege (PoLP)
+- Skapande av användare och säkerhetsgrupper i Microsoft Entra ID
+- Rolltilldelning (både direkt och via grupp)
+- Skapande av rolltilldelningsbar grupp (Test-IT)
+- Introduktion till Administrative Units (HR-Sverige)
+- Tillämpning av Principle of Least Privilege (PoLP)
+- Reflektionsfrågor kring IAM och accesshantering
 
----
+## 📄 Dokument
 
-## 📁 Lab Structure
+- `SC300_Identity_Labb_Vecka1_FULL.docx`: Komplett labbprotokoll med steg-för-steg och reflektioner.
 
-```
-sc-300-labs/
-├── week1/
-├── week2/
-└── ...
-```
+## 🧠 Reflektion
 
-Each week folder contains:
-- `README.md` – Lab summary and objectives
-- `*.docx` – Full documentation
-- `screenshots/` – Visual steps or results
+Laborationen fokuserade på praktisk förståelse för RBAC, AU, och hantering av användarroller i Microsoft Entra. Viktiga säkerhetsprinciper som PoLP tillämpades konsekvent.
 
 ---
 
-👤 Allen Camille Muco  
-🎓 IT & Cybersecurity Student, Frans Schartaus Handelsinstitut
+🛡️ Allen Camille Muco  
+Student vid Frans Schartaus Handelsinstitut  
