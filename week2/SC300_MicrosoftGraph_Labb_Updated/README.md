@@ -33,35 +33,22 @@ Denna laboration visar hur man registrerar en app i Azure, ger rätt API-behöri
 
 ## Screenshots och beskrivningar
 
-## Screenshots och beskrivningar
-
-### Bild 1: Postman – GET-anrop mot Microsoft Graph API för att hämta användare med giltig Bearer-token
-![Postman GET Microsoft Graph API](screenshots/3fc1dbe2-1b36-45d1-b8ee-36c0663e6736.png)  
-Visar API-förfrågan och JSON-svar med användardata.
-
----
+### Bild 1: Postman – GET-anrop mot Microsoft Graph API
+![Postman GET Microsoft Graph API](screenshots/3fc1dbe2-1b36-45d1-b8ee-36c0663e6736.png)
 
 ### Bild 2: Azure Portal – App-registreringens API-behörigheter
-![Azure API-behörigheter](screenshots/fd8ee184-d7c4-482a-bd87-ce04bac40da8.png)  
-Här listas tillagda delegerade API-behörigheter för appen, User.Read visas som ej administratörsgodkänd.
-
----
+![Azure API-behörigheter](screenshots/9718d3c2-75d9-48e3-bd12-1cc4911bddbb.png)
 
 ### Bild 3: Azure Portal – Välj typ av API-behörigheter för applikationen
-![Azure API-behörighetstyp](screenshots/9718d3c2-75d9-48e3-bd12-1cc4911bddbb.png)  
-Val mellan delegerade behörigheter (användarnamn) och programbehörigheter (applikationsnamn).
+![Azure API-behörighetstyp](screenshots/355d7bea-1858-4716-ac8c-7f4e07598181.png)
 
----
+### Bild 4: Azure Portal – Lista över möjliga delegerade behörigheter
+![Azure delegerade behörigheter](screenshots/fd8ee184-d7c4-482a-bd87-ce04bac40da8.png)
 
-### Bild 4: Azure Portal – Lista över möjliga delegerade behörigheter under Microsoft Graph API
-![Azure delegerade behörigheter](screenshots/355d7bea-1858-4716-ac8c-7f4e07598181.png)  
-Här väljs specifika behörigheter, t.ex. User.Read.All för full läsbehörighet på användarprofiler.
+### Bild 5: Azure Portal – Administratörsgodkännande krävs
+![Administratörsgodkännande](screenshots/b7c13ca1-6745-4e42-b5a6-df7b25dd9571.png)
 
----
 
-### Bild 5: Azure Portal – Administratörsgodkännande krävs för vissa API-behörigheter
-![Administratörsgodkännande](screenshots/b7c13ca1-6745-4e42-b5a6-df7b25dd9571.png)  
-Bekräftelse på att User.Read.All kräver administratörsmedgivande för att aktiveras.
 
 ---
 
