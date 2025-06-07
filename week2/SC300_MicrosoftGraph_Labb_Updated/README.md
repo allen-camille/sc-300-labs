@@ -79,7 +79,20 @@ Visar hur client_id, client_secret, scope och grant_type skickas i kroppen för 
 ![Postman lyckat API-anrop](screenshots/bild8.png)  
 JSON-svar med flera användare bekräftar att behörigheterna fungerar korrekt.
 
+
 ---
+
+### Bild 9: Azure Portal – Välj mellan delegerade och programbehörigheter  
+![API-behörighetstyper](screenshots/da613de3-e3fb-4682-8815-039c4ace9825.png)  
+Här visas valet mellan delegerade (inloggad användare) och programbehörigheter (tjänst utan inloggning).
+
+---
+
+### Bild 10: Azure Portal – Endast User.Read har lagts till  
+![API-behörighet User.Read](screenshots/e930003a-7563-43de-ae40-793b8cf42e29.png)  
+Illustrerar att bara `User.Read` har lagts till som delegerad behörighet, utan administratörsgodkännande.
+
+
 
 # Sammanfattning
 
