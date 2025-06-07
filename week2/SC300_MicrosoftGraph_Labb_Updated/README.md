@@ -33,65 +33,64 @@ Denna laboration visar hur man registrerar en app i Azure, ger rätt API-behöri
 
 ## Screenshots och beskrivningar
 
+
 ### Bild 1: Postman – GET-anrop mot Microsoft Graph API för att hämta användare med giltig Bearer-token
-![Postman GET Microsoft Graph API](screenshots/bild1.png)  
+![Postman GET Microsoft Graph API](screenshots/2c93d9e4-3962-4993-9298-36b5b1f2ec81.png)
 Visar API-förfrågan och JSON-svar med användardata.
 
 ---
 
-### Bild 2: Azure Portal – App-registreringens API-behörigheter  
-![Azure API-behörigheter](screenshots/bild2.png)  
+### Bild 2: Azure Portal – App-registreringens API-behörigheter
+![Azure API-behörigheter](screenshots/b7c13ca1-6745-4e42-b5a6-df7b25dd9571.png)
 Här listas tillagda delegerade API-behörigheter för appen, User.Read visas som ej administratörsgodkänd.
 
 ---
 
-### Bild 3: Azure Portal – Välj typ av API-behörigheter för applikationen  
-![Azure API-behörighetstyp](screenshots/bild3.png)  
+### Bild 3: Azure Portal – Välj typ av API-behörigheter för applikationen
+![Azure API-behörighetstyp](screenshots/fd8ee184-d7c4-482a-bd87-ce04bac40da8.png)
 Val mellan delegerade behörigheter (användarnamn) och programbehörigheter (applikationsnamn).
 
 ---
 
-### Bild 4: Azure Portal – Lista över möjliga delegerade behörigheter under Microsoft Graph API  
-![Azure delegerade behörigheter](screenshots/bild4.png)  
+### Bild 4: Azure Portal – Lista över möjliga delegerade behörigheter under Microsoft Graph API
+![Azure delegerade behörigheter](screenshots/9718d3c2-75d9-48e3-bd12-1cc4911bddbb.png)
 Här väljs specifika behörigheter, t.ex. User.Read.All för full läsbehörighet på användarprofiler.
 
 ---
 
-### Bild 5: Azure Portal – Administratörsgodkännande krävs för vissa API-behörigheter  
-![Administratörsgodkännande](screenshots/bild5.png)  
+### Bild 5: Azure Portal – Administratörsgodkännande krävs för vissa API-behörigheter
+![Administratörsgodkännande](screenshots/aead2b93-bac8-4ca5-8cfb-3a5fdb1a88b3.png)
 Bekräftelse på att User.Read.All kräver administratörsmedgivande för att aktiveras.
 
 ---
 
-### Bild 6: Azure Portal – Appens API-behörigheter efter administratörsgodkännande  
-![Godkända API-behörigheter](screenshots/bild6.png)  
+### Bild 6: Azure Portal – Appens API-behörigheter efter administratörsgodkännande
+![Godkända API-behörigheter](screenshots/35bdec3c-1a10-42c0-9b8b-b2d780390879.png)
 User.Read och User.Read.All är nu godkända och aktiva.
 
 ---
 
-### Bild 7: Postman – POST-anrop för att hämta access token via client credentials grant  
-![Postman token request](screenshots/bild7.png)  
+### Bild 7: Postman – POST-anrop för att hämta access token via client credentials grant
+![Postman token request](screenshots/7bc70919-9dc3-4526-9fd4-606d2193f160.png)
 Visar hur client_id, client_secret, scope och grant_type skickas i kroppen för att få token.
 
 ---
 
-### Bild 8: Postman – Lyckat GET-anrop med token mot Microsoft Graph API  
-![Postman lyckat API-anrop](screenshots/bild8.png)  
+### Bild 8: Postman – Lyckat GET-anrop med token mot Microsoft Graph API
+![Postman lyckat API-anrop](screenshots/3fc1dbe2-1b36-45d1-b8ee-36c0663e6736.png)
 JSON-svar med flera användare bekräftar att behörigheterna fungerar korrekt.
-
 
 ---
 
-### Bild 9: Azure Portal – Välj mellan delegerade och programbehörigheter  
-![API-behörighetstyper](screenshots/da613de3-e3fb-4682-8815-039c4ace9825.png)  
+### Bild 9: Azure Portal – Välj mellan delegerade och programbehörigheter
+![API-behörighetstyp](screenshots/da613de3-e3fb-4682-8815-039c4ace9825.png)
 Här visas valet mellan delegerade (inloggad användare) och programbehörigheter (tjänst utan inloggning).
 
 ---
 
-### Bild 10: Azure Portal – Endast User.Read har lagts till  
-![API-behörighet User.Read](screenshots/e930003a-7563-43de-ae40-793b8cf42e29.png)  
+### Bild 10: Azure Portal – Endast User.Read har lagts till
+![API-behörighet User.Read](screenshots/e930003a-7563-43de-ae40-793b8cf42e29.png)
 Illustrerar att bara `User.Read` har lagts till som delegerad behörighet, utan administratörsgodkännande.
-
 
 
 # Sammanfattning
