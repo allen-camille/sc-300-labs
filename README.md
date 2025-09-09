@@ -1,25 +1,36 @@
-# SC-300 – Vecka 1: Identity Concepts & Governance
+# SC-300 Labs – Microsoft Identity and Access Administrator
 
-Detta är dokumentationen för vecka 1 av min labbserie inom ramen för SC-300 (Microsoft Identity and Access Administrator).
-
-## ✅ Innehåll
-
-- Skapande av användare och säkerhetsgrupper i Microsoft Entra ID
-- Rolltilldelning (både direkt och via grupp)
-- Skapande av rolltilldelningsbar grupp (Test-IT)
-- Introduktion till Administrative Units (HR-Sverige)
-- Tillämpning av Principle of Least Privilege (PoLP)
-- Reflektionsfrågor kring IAM och accesshantering
-
-## 📄 Dokument
-
-- `SC300_Identity_Labb_Vecka1_FULL.docx`: Komplett labbprotokoll med steg-för-steg och reflektioner.
-
-## 🧠 Reflektion
-
-Laborationen fokuserade på praktisk förståelse för RBAC, AU, och hantering av användarroller i Microsoft Entra. Viktiga säkerhetsprinciper som PoLP tillämpades konsekvent.
+## 📚 Översikt
+Detta repo innehåller mina dokumentationer och labbar från studier inför **SC-300-certifieringen** (Microsoft Identity and Access Administrator).  
+Varje vecka innehåller teori, praktiska labbar och screenshots.
 
 ---
 
-🛡️ Allen Camille Muco  
-Student vid Frans Schartaus Handelsinstitut  
+## 📂 Veckor
+
+- [Week 1 – Identity Concepts & Governance](./week1/README.md)  
+- [Week 2 – Manage User Authentication](./week2/README.md)  
+- [Week 3 – Conditional Access & MFA](./week3/README.md)  
+- [Week 4 – Identity Protection & PIM](./week4/README.md)  
+- [Week 5 – External Identities (B2B & Federation)](./week5/README.md) ✅ *ny*
+
+---
+
+## 🎯 Syfte
+Syftet med labbarna är att steg för steg bygga förståelse för:
+- Identitetshantering i Microsoft Entra ID  
+- Rollbaserad åtkomstkontroll (RBAC)  
+- MFA & Conditional Access  
+- Identity Protection och Privileged Identity Management (PIM)  
+- Externa identiteter (B2B, federation)  
+
+---
+
+## 📌 Status
+✔️ Week 1–5 färdiga och dokumenterade  
+⏳ Week 6–8 pågår (kommer att uppdateras löpande)  
+
+---
+
+## 🛠️ Användning
+Öppna respektive veckas README för att se dokumentation och screenshots direkt i GitHub.
