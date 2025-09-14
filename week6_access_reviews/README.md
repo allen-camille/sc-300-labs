@@ -34,7 +34,7 @@ Se separat dokument: **SC300_Vecka6_Teori.docx**
 ---
 
 ## Slutsats
-I denna labb konfigurerades och kördes en **åtkomstgranskning (Access Review)** i Entra ID.  
-Vi skapade en review för gruppen **Test-IT**, definierade inställningar för automatiska beslut, och utförde sedan en faktisk granskning för *Test User 01*.  
+I denna labb konfigurerades och kördes en åtkomstgranskning (Access Review) i Entra ID.  
+Vi skapade en review för gruppen **Test-IT**, definierade inställningar för automatiska beslut, och utförde sedan en faktisk granskning för **Test User 01**.  
 
 Resultatet registrerades både i **MyAccess-portalen** och i **Entra admincenter**, vilket visar hur granskningsprocessen spåras och dokumenteras.
