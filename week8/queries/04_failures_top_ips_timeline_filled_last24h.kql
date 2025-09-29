@@ -1,0 +1,16 @@
+let TopIPs =
+    materialize(
+        SigninLogs
+        | where TimeGenerated > ago(24h)
+        | where ResultType != 0
+        | where isnotempty(IPAddress)
+        | summarize Failures = count() by IPAddress
+        | top 5 by Failures desc
+        | project IPAddress
+    );
+SigninLogs
+| where TimeGenerated > ago(24h)
+| where ResultType != 0
+| where IPAddress in (TopIPs)
+| make-series Count = count() on TimeGenerated from bin(ago(24h), 1h) to now() step 1h by IPAddress
+| render timechart

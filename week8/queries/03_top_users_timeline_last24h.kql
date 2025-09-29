@@ -1,0 +1,14 @@
+let TopUsers =
+    materialize(
+        SigninLogs
+        | where TimeGenerated > ago(24h)
+        | summarize Total = count() by UserPrincipalName
+        | top 5 by Total desc
+        | project UserPrincipalName
+    );
+SigninLogs
+| where TimeGenerated > ago(24h)
+| where UserPrincipalName in (TopUsers | project UserPrincipalName)
+| summarize Count = count() by bin(TimeGenerated, 1h), UserPrincipalName
+| order by bin(TimeGenerated,1h) asc
+| render timechart
