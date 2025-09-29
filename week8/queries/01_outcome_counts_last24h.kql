@@ -1,0 +1,4 @@
+SigninLogs
+| where TimeGenerated > ago(24h)
+| extend Outcome = case(ResultType == 0, "Success", "Failure")
+| summarize Count = count() by Outcome

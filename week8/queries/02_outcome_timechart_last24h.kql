@@ -1,0 +1,5 @@
+SigninLogs
+| where TimeGenerated > ago(24h)
+| extend Outcome = case(ResultType == 0, "Success", "Failure")
+| make-series Count = count() on TimeGenerated from ago(24h) to now() step 1h by Outcome
+| render timechart
